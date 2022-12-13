@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "project.dtd">
+<userinfo>
+  <student sid="s111111">
+    <programme> BA-AHCC </programme>
+    <entranceyear> 2001 </entranceyear>
+	<pw> A1234567 </pw>
+	<latestlogintime>  </latestlogintime>
+  </student>
+  <student sid="s222222">
+    <programme> BA-AHCC </programme>
+    <entranceyear> 2002 </entranceyear>
+	<pw> B2222222 </pw>
+	<latestlogintime>  </latestlogintime>
+  </student>
+  <student sid="s333333">
+    <programme> BA-AHCC </programme>
+    <entranceyear> 2003 </entranceyear>
+	<pw> C3333333 </pw>
+	<latestlogintime>  </latestlogintime>
+  </student>
+  <student sid="s444444">
+    <programme> BA-AHCC </programme>
+    <entranceyear> 2004 </entranceyear>
+	<pw> D4444444 </pw>
+	<latestlogintime>  </latestlogintime>
+  </student>
+</userinfo>

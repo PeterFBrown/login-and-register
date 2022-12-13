@@ -1,0 +1,8 @@
+<!DOCTYPE userinfo [
+<!ELEMENT userinfo (student)>
+<!ELEMENT student (programme, entranceyear, pw, latestlogintime)>
+<!ELEMENT programme (#PCDATA)>
+<!ELEMENT pw (#PCDATA)>
+<!ELEMENT latestlogintime (#PCDATA)>
+<!ATTLIST student sid ID #REQUIRED>
+]>
