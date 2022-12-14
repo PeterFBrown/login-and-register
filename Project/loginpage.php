@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <html>
 
 <head>
@@ -9,7 +8,7 @@
 </head>
 
 <body>
-<p><a href="mainmenu.php">Main menu</a></p>
+<p><a href="mainmenu.php">Home page</a></p>
     <form name="myForm" action="loginverificationpage.php" method="post" id="form2"> 
     <table width="400" border="3" align="center" style="margin-top:100px" >
     <tr><td colspan="2" align="center"><h3/>Login Page</td><tr>

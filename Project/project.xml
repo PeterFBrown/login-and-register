@@ -1,28 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "project.dtd">
+<!DOCTYPE userinfo [
+<!ELEMENT userinfo (student)+>
+<!ELEMENT student (programme , entranceyear , pw , latestlogintime)>
+<!ELEMENT entranceyear (#PCDATA)>
+<!ELEMENT programme (#PCDATA)>
+<!ELEMENT pw (#PCDATA)>
+<!ELEMENT latestlogintime (#PCDATA)>
+<!ATTLIST student id ID #REQUIRED>
+]>
 <userinfo>
-  <student sid="s111111">
-    <programme> BA-AHCC </programme>
-    <entranceyear> 2001 </entranceyear>
-	<pw> A1234567 </pw>
-	<latestlogintime>  </latestlogintime>
+  <student id="s111111">
+    <programme>BA-AHCC</programme>
+    <entranceyear>2001</entranceyear>
+    <pw>A1234567</pw>
+    <latestlogintime/>
   </student>
-  <student sid="s222222">
-    <programme> BA-AHCC </programme>
-    <entranceyear> 2002 </entranceyear>
-	<pw> B2222222 </pw>
-	<latestlogintime>  </latestlogintime>
+  <student id="s222222">
+    <programme>BA-AHCC</programme>
+    <entranceyear>2002</entranceyear>
+    <pw>B2222222</pw>
+    <latestlogintime>09:46:38</latestlogintime>
   </student>
-  <student sid="s333333">
-    <programme> BA-AHCC </programme>
-    <entranceyear> 2003 </entranceyear>
-	<pw> C3333333 </pw>
-	<latestlogintime>  </latestlogintime>
+  <student id="s333333">
+    <programme>BA-AHCC</programme>
+    <entranceyear>2003</entranceyear>
+    <pw>C3333333</pw>
+    <latestlogintime>09:47:09</latestlogintime>
   </student>
-  <student sid="s444444">
-    <programme> BA-AHCC </programme>
-    <entranceyear> 2004 </entranceyear>
-	<pw> D4444444 </pw>
-	<latestlogintime>  </latestlogintime>
+  <student id="s444444">
+    <programme>BA-AHCC</programme>
+    <entranceyear>2004</entranceyear>
+    <pw>D4444444</pw>
+    <latestlogintime/>
+  </student>
+  <student id="s207892">
+    <programme>BA-AHCC</programme>
+    <entranceyear>1991</entranceyear>
+    <pw>Okt10055</pw>
+    <latestlogintime/>
   </student>
 </userinfo>
