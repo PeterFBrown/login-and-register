@@ -21,6 +21,7 @@
         $student->addChild("programme", $programme);
         $student->addChild("entranceyear", $entranceyear);
 		$student->addChild("pw", $pw);
+		$student->addChild("latestlogindate");
 		$student->addChild("latestlogintime");
 		
 		$dom = new DOMDocument('1.0');

@@ -10,6 +10,7 @@
 
     $sid = $_POST["sid"];
 	$pw = $_POST["pw"];
+	$date = date("Y-m-d");
 	$Time = date("h:i:s");
 
     $xml = simplexml_load_file("project.xml");
@@ -19,7 +20,8 @@
 		if ($password [0] == $pw) {
             setcookie("project", $sid, time() + 90000);
 			$logintime = $xml->xpath("/userinfo/student[@id='$sid']");
-		    $logintime[0]->latestlogintime = $Time;
+		    $logintime[0]->latestlogindate = $date;
+			$logintime[0]->latestlogintime = $Time;
             $xml->asXML("project.xml");
 		    echo "<script>alert('Login success! Now will return to home page');location.href ='mainmenu.php?$sid'</script>";
         }else{
